@@ -34,12 +34,11 @@ int main() {
            result = Subtract(value1, value2));
   } else if (operator== '*' || operator== L'×') {
 
-    printf("Multiplication is %d %c %d\n\t= %d\n", value1, operator, value2,
-           result = Multiply(value1, value2));
+    printf("Multiplication is %d %c %d\n\t= %d\n", value1, operator, value2,result = Multiply(value1, value2));
+
   } else if (operator== '/' || operator== L'÷') {
 
-    printf("Division is %d %c %d\n\t= %d\n", value1, operator, value2,
-           result = Divide(value1, value2));
+    printf("Division is %d %c %d\n\t= %d\n", value1, operator, value2,result = Divide(value1, value2));
   } else {
     printf("You have entered incorrect values please try again\n\n");
   }
