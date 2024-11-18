@@ -1,56 +1,38 @@
-
-#include "mathlib.h"
 #include <stdio.h>
 
-// Function prototype -> block for aquiring user input Get
-void GetUserInput(char operator, int value1, int value2);
-//Function prototype--> to perfom logic of calculator
-void GiveResultOfCaltulation(int result, char operator, int value1, int value2);
+// Declare the functions
+char *GetUserInput(char operator, int value1, int value2);
+int GiveResultOfCalculation(char operator, int value1, int value2);
 
 int main() {
+  char operator= '+'; // Example operator
+  int value1 = 10, value2 = 20;
 
-  printf(GetUserInput(char operator, int value1, int value2));
-  printf(GiveResultOfCaltulation(int result, char operator, int value1, int value2));
+  printf("User Input: %s\n", GetUserInput(operator, value1, value2));
+  printf("Calculation Result: %d\n",
+         GiveResultOfCalculation(operator, value1, value2));
 
+  return 0;
 }
 
-void GetUserInput(char operator, int value1, int value2) {
-
-
-  printf("\n");
-  printf("***********CLI CALCULATOR***********\n\n");
-  printf("Enter value initial value: ");
-  scanf("%d", &value1); // ask for the initial valu
-
-  printf("Enter the operator e.g(+,-,*,/) for you math: ");
-  scanf(" %c", &operator);
-
-  printf("Enter value2 secondary value: ");
-  scanf(" %d", &value2);
+// Define the functions
+char *GetUserInput(char operator, int value1, int value2) {
+  static char result[100];
+  sprintf(result, "%d %c %d", value1, operator, value2);
+  return result;
 }
 
-void GiveResultOfCaltulation(int result, char operator, int value1, int value2) {
-
-if (operator== '+') {
-
-  printf("\tSum is: %d %c %d\n\t= %d\n", value1, operator, value2,
-         result = Sum(
-             value1,
-             value2)); // if evaulated to true then the code block gets exetuted
-} else if (operator== '-') {
-
-  printf("\tSubtraction is: %d %c %d\n\t= %d\n", value1, operator, value2,
-         result = Subtract(value1, value2));
-} else if (operator== '*' || operator== L'×') {
-
-  printf("Multiplication is %d %c %d\n\t= %d\n", value1, operator, value2,
-         result = Multiply(value1, value2));
-
-} else if (operator== '/' || operator== L'÷') {
-
-  printf("Division is %d %c %d\n\t= %d\n", value1, operator, value2,
-         result = Divide(value1, value2));
-} else {
-  printf("You have entered incorrect values please try again\n\n");
-}
+int GiveResultOfCalculation(char operator, int value1, int value2) {
+  switch (operator) {
+  case '+':
+    return value1 + value2;
+  case '-':
+    return value1 - value2;
+  case '*':
+    return value1 * value2;
+  case '/':
+    return (value2 != 0) ? value1 / value2 : 0;
+  default:
+    return 0;
+  }
 }
