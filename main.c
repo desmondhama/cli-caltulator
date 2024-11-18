@@ -11,7 +11,7 @@ int main() {
   printf("\n");
   printf("***********CLI CALCULATOR***********\n\n");
   printf("Enter value initial value: ");
-  scanf("%d", &value1); // ask for the initial value
+  scanf("%d", &value1); // ask for the initial valu
 
   printf("Enter the operator e.g(+,-,*,/) for you math: ");
   scanf(" %c", &operator);
