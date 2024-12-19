@@ -1,0 +1,7 @@
+December 19th, 2024. [M0j0-Jr]
+
+Added functionality for user input of numbers and operators
+Added main loop so the user can conveniently calculate multiple equations without having to re-run the program
+Adjusted spacing and indentation a bit
+Made a makefile for the program
+

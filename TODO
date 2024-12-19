@@ -1,0 +1,3 @@
+Improve Makefile
+Add more comments
+Improve user input handling, such that you can enter "exit" to exit.
