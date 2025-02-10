@@ -13,3 +13,4 @@ Tweaked Makefile to improve optimization
 Tweaked README.md to replace the GCC command with the make command
 Tweaked README.md to include make as a prerequisite
 Increased indentation in code to improve readability
+Added more comments
