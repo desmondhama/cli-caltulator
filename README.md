@@ -25,12 +25,12 @@ You need to have Make installed on your system.
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/C-CLI-Calculator.git
+git clone https://github.com/desmondhama/cli-caltulator.git
 
 
 2. Navigate to the project directory:
 
-cd C-CLI-Calculator
+cd cli-caltulator
 
 
 3. Compile the program:
@@ -43,7 +43,7 @@ make
 
 Once compiled, you can run the calculator by executing the following:
 
-./calculator
+./cli-caltulator
 
 Follow the on-screen prompts to enter numbers and select an operation.
 
@@ -54,17 +54,3 @@ Feel free to fork the repository, make improvements, and submit pull requests. C
 # License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
----
-
-# Customizing:
-
-Replace yourusername in the git clone command with your actual GitHub username.
-
-Add any additional features or instructions if your calculator has special functionality.
-
-If you plan on using a different license, update the "License" section.
-
-
-You can also add any relevant sections such as "Known Issues," "Roadmap," or "Acknowledgements" depending on how detailed you want your README to be. 
