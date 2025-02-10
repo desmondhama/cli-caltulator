@@ -5,3 +5,10 @@ Added main loop so the user can conveniently calculate multiple equations withou
 Adjusted spacing and indentation a bit
 Made a makefile for the program
 
+===================================================================================
+
+February 10th, 2025. [M0j0-Jr
+
+Tweaked Makefile to improve optimization
+Tweaked README.md to replace the GCC command with the make command
+Tweaked README.md to include make as a prerequisite
