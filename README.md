@@ -19,6 +19,7 @@ To use the calculator, clone the repository and compile the C files.
 # Prerequisites
 
 You need to have a C compiler (like GCC) installed on your system.
+You need to have Make installed on your system.
 
 # Installation
 
