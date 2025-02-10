@@ -15,6 +15,7 @@ Tweaked README.md to include make as a prerequisite
 Increased indentation in code to improve readability
 Added more comments
 Rearranged functions in main.c to be next to their declaration in an effort to improve readability
-Removed redundant function code
+Removed redundant function code in main.c
+Removed redundant comment in Makefile
 Replaced echo command with printf in Makefile to print newline correctly
 Modified CHANGELOG to reflect these changes
