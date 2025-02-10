@@ -16,4 +16,5 @@ Increased indentation in code to improve readability
 Added more comments
 Rearranged functions in main.c to be next to their declaration in an effort to improve readability
 Removed redundant function code
-Modified CHANGELOG to show these changes
+Replaced echo command with printf in Makefile to print newline correctly
+Modified CHANGELOG to reflect these changes
