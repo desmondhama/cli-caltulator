@@ -34,7 +34,7 @@ cd C-CLI-Calculator
 
 3. Compile the program:
 
-gcc -o calculator main.c
+make
 
 
 
