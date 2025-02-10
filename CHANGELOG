@@ -19,3 +19,6 @@ Removed redundant function code in main.c
 Removed redundant comment in Makefile
 Replaced echo command with printf in Makefile to print newline correctly
 Modified CHANGELOG to reflect these changes
+
+Created LICENSE file
+Tweaked README.md to fix some issues regarding the compilation and execution of the program
